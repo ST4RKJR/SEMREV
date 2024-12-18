@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .outer-box {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: 500px; /* Outer box height */
+            width: 500px; /* Outer box width */
+            border: 2px solid black; /* Outer border */
+          }
+          
+          .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            grid-template-rows: repeat(3, 1fr); /* 3 rows */
+            height:50%;
+            width: 50%;
+            background-color: lightblue;
+          }
+          
+          .box {
+            border: 1px solid black; /* Border for grid cells */
+            text-align: center;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+    </style>
+</head>
+<body>
+    <div class="outer-box">
+        <div class="grid">
+          <div class="box">one</div>
+          <div class="box">two</div>
+          <div class="box">three</div>
+          <div class="box">four</div>
+          <div class="box">five</div>
+          <div class="box">six</div>
+          <div class="box">seven</div>
+          <div class="box">eight</div>
+          <div class="box">nine</div>
+        </div>
+      </div>
+    
+</body>
+</html>
