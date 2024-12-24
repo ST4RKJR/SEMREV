@@ -1,0 +1,79 @@
+body, h1, h2, p, ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  /* Header styling */
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    height: 20vh;
+    padding: 2em;
+  }
+  
+  /* Navigation styling */
+  .nav {
+    background-color: #333;
+    text-align: center;
+    height: 3em;
+    
+  }
+  
+  .nav ul {
+    display: inline-block; /* Center ul inside nav */
+    margin: 15px 0;
+  
+  }
+  
+  .nav li {
+    display: inline-block; /* Horizontal menu items */
+    color: white;
+    background-color: #444;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  
+  .nav li:hover {
+    background-color: #555;
+  }
+  
+  /* Main content styling */
+  /* Main content styling */
+  
+  
+  
+  
+  .main-content ul {
+    border: 1px solid #ddd;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  
+  .main-content ul ul {
+    display: flex; /* Inline-block for nested lists */
+    width: 400px;
+    margin-top: 5vh;
+  }
+  .main-content ul li {
+    margin: 10% 20px;
+  }
+  
+  .main-content ul ul li {
+    display: inline-block;
+    background-color: #f4f4f4;
+    padding: 1.5rem;
+    
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  h2{
+    font-size: 1.8em;
+  }
