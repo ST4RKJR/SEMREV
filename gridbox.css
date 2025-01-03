@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0;
+    
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 1040px;
+    border: 2px solid wheat;
+    align-items: center;
+    background-color: black;
+}
+.main{
+    display: grid;
+
+}
+.main .box{
+    border: 2px solid salmon;
+    height: 150px;
+    width: 150px;
+    grid-template-columns: 2fr;
+}
