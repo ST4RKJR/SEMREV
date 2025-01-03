@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    margin-top:10px ;
+
+  }
+  
+  body {
+    background-color: black;
+    overflow: hidden;
+  }
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot');
+    src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+#cursor{
+    width: 30px;
+    height: 30px;
+    background-color: white ;
+    border: 3px solid #007bff;
+    border-radius:50%;
+    position:fixed;
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    z-index: 10;
+  
+  }
+#mainx{
+    display: flex;
+    justify-content: center;
+}
+  #nav{
+    display: flex;
+    border:1px solid white;
+    border-radius:60px;
+    justify-content: space-between;
+    width:90%;
+    position: fixed;
+    background-color: #007bff;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  #navbar {
+    display: flex;
+    gap:30px;
+    padding: 50px 70px;
+    font-size: 24px;
+  }
+
+  .nav-item a:hover {
+    font-family: Bungee Spice;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .img{
+    display: flex;
+    padding: 20px;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    white-space: nowrap;
+    cursor: default;
+  }
+  
+  .center:hover {
+    font-family: Bungee Spice;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+  }
+
+  .video-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .background-clip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    object-fit: cover; 
+  }
